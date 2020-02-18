@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    #photo {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav id="nav" class="nav">
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <aside class="aside">
+        <figure>
+          <img id="photoSpin" src="assets/images/load.gif" width="200 px" alt="spin">
+          <img id="photo" src="assets/images/hudf.jpg" width="200 px" alt="photo" onload=myFunc()>
+        </figure>
+        <div>
+          <h2>Maksim</h2>
+          <p>Java Developer</p>
+        </div>
+      </aside>
+
+      <section>
+        <div id="about">
+          <h3>About</h3>
+          <p>###### ####### ################## ##### ########## ########################### ########## ########
+            ######### ###### #################### ####### ################## ############### #########
+            ################## ################## ############### ###### #########
+          </p>
+          <p>############ ################## ############### ############ ############### ##################
+            ############### ##############</p>
+          <p>### ########## ###### ############ ############### ############## ############# ##################
+            ############### ########################### ### ############### ###### ######### ###########################
+            ################## ############### ############ ############### ################## ############### ########
+            ################### ################## ############### ##############</p>
+          <p>############# ################## ############### ########################### ##################
+            ############### ############# ############## ################## ############### ###########################
+            ################## ######## ####### ########################### ################## ###############
+            ########################### ################## ############### ##############</p>
+          <p>## ########### ################## ###### ######### ########## ################# ##################
+            ############### ################# ########## ###### ############ ############### #########
+            ################## ################## ############### ################# ########## ##################
+            ############### ########################### ################## ############### ##############</p>
+        </div>
+        <div id="experience">
+          <h3>Work Experience</h3>
+          <p>6 years Java development</p>
+          <p>###### ####### #### ########</p>
+          <p>###### ####### ############</p>
+          <p>###### #### ### ############</p>
+          <p>## #### ####### ############</p>
+        </div>
+        <div id="skills">
+          <h3>
+            Technical Skills
+          </h3>
+          <ul>
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Hibernate</li>
+            <li>SQL</li>
+            <li>ZK</li>
+            <li>###### ####### #### ########</li>
+            <li>###### ####### ############</li>
+            <li>###### #### ### ############</li>
+            <li>## #### ####### ############</li>
+          </ul>
+        </div>
+        <div id="contacts">
+          <h3>Contacts</h3>
+          <p>### ## ### ## ##</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="#nav">UP</a>
+      <ul>
+        <li>
+          
+        </li>
+      </ul>
+
+
+    </footer>
+
+  </div>
+
+
+
+
+
+
+  <script>
+    function myFunc() {
+      document.getElementById('photoSpin').style.display = 'none'
+      document.getElementById('photo').style.display = 'inline-block';
+    }
+
+  </script>
+</body>
+
+</html>
