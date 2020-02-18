@@ -10,3 +10,5 @@ Java Developer
 - Java
 - Spring
 - Hibernate
+- SQL
+- ZK
